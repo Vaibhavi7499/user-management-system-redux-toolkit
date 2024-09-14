@@ -1,0 +1,61 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid lightgray;
+    padding-bottom: 40px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.formuser-name label {
+    font-size: 20px;
+}
+
+.formuser-name input {
+    margin-left: 20px;
+    height: 25px;
+    width: 200px;
+}
+
+.formuser-email label {
+    font-size: 20px;
+}
+
+.formuser-email input {
+    margin-left: 20px;
+    height: 25px;
+    width: 200px;
+}
+
+.formuser-number label {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.formuser-number input {
+    margin-right: 70px;
+    height: 25px;
+    width: 200px;
+}
+
+.form-btn button {
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    color: white;
+}
+
+.paragraph {
+    text-align: center;
+    color: red;
+}
